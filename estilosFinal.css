@@ -1,0 +1,160 @@
+.head{
+  background-color: rgb(131, 65, 162, 1.0);
+  height: 65px;
+  vertical-align: middle;
+  display: block;
+}
+.logo{
+  height: 40px;
+  width: 130px;
+  margin: 10px 400px 2px 240px;
+}
+.n1{
+display: inline;
+margin: 0px 50px 0px 300px;
+color: white;
+}
+.n2{
+display: inline;
+margin: 0px 1px 0px 50px;
+color: white;
+}
+.centerAnimals{
+display: flex;
+justify-content: center;
+height: 450px;
+}
+.animales{
+width: 100%;
+position: relative;
+z-index: 1;
+}
+.centro{
+  align-items: center;
+margin-left: 240px;
+
+}
+.Mascotas{
+  font-size: 30px;
+color: rgb(131, 65, 162, 1.0);
+
+}
+.vineta-lila{
+  width: 2.5%;
+  position: absolute;
+}
+body{
+background-color: #EDEDED;
+height: 100vh;
+margin: 0;
+}
+
+h1{
+  color: rgb(131, 65, 162, 1.0);
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  font-size: 50px;
+}
+.form-container {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin-left: 240px;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+}
+.form-container input[type="text"],
+.form-container input[type="file"],
+.form-container select {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #EDEDED;
+}
+.form-container .radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.form-container .radio-group input {
+  margin-right: 3px;
+  border-radius: 200px;
+}
+.form-container .form-group {
+  display: flex;
+  gap: 20px;
+}
+.form-container .form-group div {
+  flex: 1;
+}
+.form-container .cta {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-container .cta button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00bfa6;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-container .add-feature,
+.form-container .add-photo {
+  color: #00bfa6;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.form-container .required-note {
+  color: #8a2be2;
+  font-size: 12px;
+  text-align: left;
+}
+.footer{
+background-image: url("footer.svg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+height: 400px;
+align-items: center;
+text-align: center;
+color: white;
+}
+.text-footer {
+  width: 70%;
+}
+
+.contact-footer{
+  display: flex;
+    align-items: center;
+    width: auto;
+}
+.contact-footer > div{
+  display: flex;
+}
+
+
+
+.contacto{
+  color: white;
+  margin-top: 50px;
+}
+.mail{
+width: 50px;
+height: 50px;
+ margin: 0 10px;
+
+}
+.tel{  
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
