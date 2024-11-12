@@ -1,0 +1,14 @@
+table{
+border-collapse: collapse;
+height: 500px;
+width: 500;
+}
+tr, td{
+border: 5px solid;
+padding: 8px;
+border-color: black;
+}
+
+body{
+	background-color: #e6b68b;
+}
